@@ -15,12 +15,12 @@ echo "Waiting 3 mins for stacks to create........."
 #sleep 180
 
 echo "AccentureWA1Stack"
-/home/ubuntu/bin/aws cloudformation describe-stacks --stack-name AccentureWA1Stack --region us-east-1 |grep StackStatus
+#/home/ubuntu/bin/aws cloudformation describe-stacks --stack-name AccentureWA1Stack --region us-east-1 |grep StackStatus
 
 echo "AccentureSG1Stack"
-/home/ubuntu/bin/aws cloudformation describe-stacks --stack-name AccentureSG1Stack --region ap-southeast-1 |grep StackStatus
+#home/ubuntu/bin/aws cloudformation describe-stacks --stack-name AccentureSG1Stack --region ap-southeast-1 |grep StackStatus
 
 echo "AccentureDE1Stack"
-/home/ubuntu/bin/aws cloudformation describe-stacks --stack-name AccentureDE1Stack --region eu-central-1 |grep StackStatus
+#/home/ubuntu/bin/aws cloudformation describe-stacks --stack-name AccentureDE1Stack --region eu-central-1 |grep StackStatus
 
 exit
